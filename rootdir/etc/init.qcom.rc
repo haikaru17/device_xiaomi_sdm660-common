@@ -72,6 +72,8 @@ on post-fs
     # make the selinux kernel policy world-readable
     chmod 0444 /sys/fs/selinux/policy
 
+    write /sys/class/graphics/fb0/idle_time 100
+
 on early-boot
     # set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
