@@ -295,6 +295,12 @@ PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm \
     vendor.lineage.livedisplay@2.0-service-sysfs
 
+# LMKD
+# Enable stats logging in LMKD
+TARGET_LMKD_STATS_LOG := true
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lmk.log_stats=true
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
