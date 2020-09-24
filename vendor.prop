@@ -229,6 +229,9 @@ ro.soc.model=SDM660
 # Time
 persist.vendor.delta_time.enable=true
 
+# Radio
+persist.vendor.radio.enableadvancedscan=false
+
 # USB
 vendor.usb.rmnet.func.name=rmnet_bam
 vendor.usb.rmnet.inst.name=rmnet
