@@ -402,6 +402,10 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI
 
+# tensorflow
+PRODUCT_PACKAGES += \
+    libtflite
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.xiaomi_sdm660.qti
