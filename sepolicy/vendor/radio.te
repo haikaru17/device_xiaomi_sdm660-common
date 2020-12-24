@@ -20,3 +20,6 @@ dontaudit {
     sensors
     vendor_dpmd
 } diag_device:chr_file { read write };
+
+binder_call(radio, hal_imsrtp)
+allow radio { cameraserver_service mediaextractor_service mediaserver_service mediametrics_service drmserver_service audioserver_service }:service_manager find;
