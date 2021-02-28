@@ -95,7 +95,7 @@ vendor.audio.feature.snd_mon.enable=true
 
 ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=6
-vendor.audio.adm.buffering.ms=6
+vendor.audio.adm.buffering.ms=3
 
 # Bluetooth
 vendor.qcom.bluetooth.soc=cherokee
