@@ -7,3 +7,7 @@ r_dir_file(system_app, sysfs_battery_supply);
 allow system_app proc_vmallocinfo:file r_file_perms;
 
 binder_call(system_app, hal_power_default)
+
+# Vibrator
+allow system_app sysfs_vibrator:dir search;
+allow system_app sysfs_vibrator:file rw_file_perms;
