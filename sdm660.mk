@@ -24,7 +24,8 @@ PRODUCT_SOONG_NAMESPACES += \
 # Permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/system_ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml \
-    $(LOCAL_PATH)/configs/privapp-permissions-google-restore.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google-restore.xml
+    $(LOCAL_PATH)/configs/privapp-permissions-google-restore.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google-restore.xml \
+    $(LOCAL_PATH)/configs/privapp-permissions-google-photos.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google-photos.xml
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
