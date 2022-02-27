@@ -100,7 +100,7 @@
         <fqname>@1.0::IOffloadControl/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>com.qualcomm.qti.ant</name>
+        <name>com.dsi.ant</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IAntHci/default</fqname>
     </hal>
