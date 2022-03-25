@@ -250,7 +250,10 @@
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
     <!-- Screen brightness when dozing. -->
-    <integer name="config_screenBrightnessDoze">17</integer>
+    <integer name="config_screenBrightnessDoze">21</integer>
+    <!-- If we allow automatic adjustment of screen brightness while dozing, how many times we want
+         to reduce it to preserve the battery. Value of 100% means no scaling. -->
+    <item name="config_screenBrightnessDozeFloat" format="float" type="dimen">0.07874</item>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
 
     <!-- The name of the package that will hold the dialer role by default. -->
