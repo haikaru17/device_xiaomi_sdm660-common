@@ -42,6 +42,7 @@ ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 
 # Perf
+ro.vendor.qti.sys.fw.bg_apps_limit=32
 vendor.perf.gestureflingboost.enable=true
 
 # RCS
