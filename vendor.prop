@@ -107,6 +107,7 @@ vidc.enc.dcvs.extra-buff-count=2
 
 # Display
 debug.hwui.skia_atrace_enabled=false
+debug.hwui.renderer=skiagl
 debug.sf.early_phase_offset_ns=500000
 debug.sf.early_app_phase_offset_ns=500000
 debug.sf.early_gl_app_phase_offset_ns=15000000
