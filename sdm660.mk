@@ -280,7 +280,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.xiaomi_sdm660
+    android.hardware.light-service.xiaomi
 
 # LiveDisplay native
 PRODUCT_PACKAGES += \
