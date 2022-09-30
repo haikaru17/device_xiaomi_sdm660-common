@@ -312,6 +312,10 @@ setprop ro.vendor.ril.mbn_copy_completed 1
 
 #check build variant for printk logging
 #current default minimum boot-time-default
+
+# Remove settings cache, avoids derps after dirty flash
+rm -rf /data/system/package_cache
+
 buildvariant=`getprop ro.build.type`
 case "$buildvariant" in
     "userdebug" | "eng")
