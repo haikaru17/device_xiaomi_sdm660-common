@@ -103,6 +103,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="allow_holding_video_call" value="true"/>
         <!-- Config to allow accept one way for video calls -->
         <boolean name="allow_one_way_accept_video_call" value="true"/>
+        <!-- Config to show 4g for lte data icon -->
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
     </carrier_config>
 
     <carrier_config mcc="001" mnc="01">
