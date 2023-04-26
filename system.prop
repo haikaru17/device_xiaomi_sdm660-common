@@ -13,6 +13,9 @@ persist.wm.enable_remote_keyguard_animation=0
 # DPM
 persist.vendor.dpm.feature=1
 
+# Feature flags
+persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
 ro.netflix.channel=497730f0-ad4b-11e7-95a4-c7ad113ce187
