@@ -1,3 +1,6 @@
+# Audio resampler
+af.resampler.quality=255
+
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 
