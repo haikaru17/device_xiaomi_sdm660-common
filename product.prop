@@ -19,7 +19,7 @@ power.saving.mode=1
 pm.sleep_mode=1
 
 # Shutdown
-ro.build.shutdown_timeout=2
+ro.build.shutdown_timeout=0
 
 # Logs
 persist.log.tag.AnalyticsService=S
