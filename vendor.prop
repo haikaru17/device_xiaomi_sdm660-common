@@ -124,7 +124,7 @@ vendor.video.disable.ubwc=1
 vidc.enc.dcvs.extra-buff-count=2
 
 # Display
-debug.hwui.skia_atrace_enabled=false
+debug.hwui.skia_use_perfetto_track_events=false
 debug.hwui.use_buffer_age=false
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
