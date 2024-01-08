@@ -357,4 +357,7 @@
 
     <!-- The max scale for the wallpaper when it's zoomed in -->
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
+
+    <!-- If this is true, the message that USB is only being used for charging will be shown. -->
+    <bool name="config_usbChargingMessage">false</bool>
 </resources>
