@@ -17,7 +17,6 @@ persist.vendor.dpm.feature=1
 persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
 # Fling velocity
-persist.sys.scrollingcache=0
 ro.min.fling_velocity=60
 ro.max.fling_velocity=20000
 
