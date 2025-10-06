@@ -76,8 +76,8 @@ vendor/lib64/libbtnv.so|08fc5c0a38eca63ebe6f0cd854f6525537141d44
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9346946b110086a6b473c8226e072e9a0cdbb87e
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|073cace3aa8d0ffa025d9df67c45f8a907109339
 
-# Charger - from jasmine
-vendor/bin/hvdcp_opti|120837d6d44abfd86515731dd26183be9cdd5596
+# Charger - from LA.UM.9.2.r1-03500-SDMxx0.0
+vendor/bin/hvdcp_opti|cfee9d4b5c2a842173aefe573344b2d3366f7d17
 
 # CNE - from jasmine
 etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
