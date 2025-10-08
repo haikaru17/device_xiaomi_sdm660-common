@@ -289,7 +289,7 @@
          0: 3 button mode (back, home, overview buttons)
          1: 2 button mode (back, home buttons + swipe up for overview)
          2: gestures only for back, home and overview -->
-    <integer name="config_navBarInteractionMode">2</integer>
+    <integer name="config_navBarInteractionMode">0</integer>
 
     <!-- Flag indicating whether the surface flinger is inefficient
          at performing a blur.  Used by parts of the UI to turn off
