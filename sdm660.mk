@@ -5,9 +5,15 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-pe \
+PRODUCT_PACKAGES += \
+    XiaomiSDM660CarrierConfigOverlay \
+    XiaomiSDM660FrameworksOverlay \
+    XiaomiSDM660SettingsOverlay \
+    XiaomiSDM660SettingsProviderOverlay \
+    XiaomiSDM660SystemUIOverlay \
+    XiaomiSDM660TelephonyOverlay \
+    XiaomiSDM660TetheringConfigOverlay \
+    XiaomiSDM660WifiOverlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -403,10 +409,6 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.xiaomi_sdm660.qti
 
-# Tethering
-PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
-
 # Tetheroffload
 PRODUCT_PACKAGES += \
     ipacm \
@@ -422,7 +424,6 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
     libwifi-hal-qcom \
-    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 

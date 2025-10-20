@@ -1,6 +1,6 @@
 runtime_resource_overlay {
-    name: "TetheringConfigOverlay",
+    name: "XiaomiSDM660TetheringConfigOverlay",
     resource_dirs: ["res"],
     sdk_version: "current",
-    proprietary: true
+    vendor: true
 }
