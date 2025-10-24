@@ -28,7 +28,6 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 
 import org.lineageos.settings.device.doze.DozeSettingsActivity;
-import org.lineageos.settings.device.kcal.KCalSettingsActivity;
 import org.lineageos.settings.device.preferences.CustomSeekBarPreference;
 import org.lineageos.settings.device.preferences.SecureSettingListPreference;
 import org.lineageos.settings.device.preferences.SecureSettingSwitchPreference;
@@ -43,8 +42,6 @@ public class DeviceSettings extends PreferenceFragment implements
 
     private static final String CATEGORY_DISPLAY = "display";
     private static final String PREF_DEVICE_DOZE = "advanced_doze_settings";
-
-    private static final String PREF_DEVICE_KCAL = "device_kcal";
 
     private static final String PREF_CLEAR_SPEAKER = "clear_speaker_settings";
 
@@ -76,14 +73,6 @@ public class DeviceSettings extends PreferenceFragment implements
         mDozeSettings = (Preference)findPreference(PREF_DEVICE_DOZE);
         mDozeSettings.setOnPreferenceClickListener(preference -> {
             Intent intent = new Intent(getActivity().getApplicationContext(), DozeSettingsActivity.class);
-            startActivity(intent);
-            return true;
-        });
-
-        Preference kcal = findPreference(PREF_DEVICE_KCAL);
-
-        kcal.setOnPreferenceClickListener(preference -> {
-            Intent intent = new Intent(getActivity().getApplicationContext(), KCalSettingsActivity.class);
             startActivity(intent);
             return true;
         });

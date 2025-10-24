@@ -22,16 +22,6 @@
     <string name="switch_bar_off">Вимк</string>
     <string name="device_settings_app_name">Додаткові налаштування</string>
     <string name="ambient_display_title">Відображення навколишнього середовища</string>
-    <string name="pickup_sensor_title">Датчик прийому</string>
-    <string name="proximity_sensor_title">Датчик наближення</string>
-    <string name="hand_wave_gesture_title">Мах рукою</string>
-    <string name="hand_wave_gesture_summary">Імпульсні сповіщення на ручній хвилі</string>
-    <string name="pick_up_gesture_title">Пікап</string>
-    <string name="pick_up_gesture_summary">Імпульсні сповіщення про приймання</string>
-    <string name="pocket_gesture_title">Кишеньковий</string>
-    <string name="pocket_gesture_summary">Імпульсні сповіщення про вилучення з кишені</string>
-    <string name="proximity_wake_title">Близькість пробудження</string>
-    <string name="proximity_wake_enable_summary">Пристрій пробудження під рукою</string>
     <string name="wake_on_gesture_title">Прокинься за допомогою жестів</string>
     <string name="wake_on_gesture_summary">Вимкніть пристрій замість пульсуючих повідомлень про події жестів</string>
     <string name="dialog_ok">Добре</string>
@@ -47,43 +37,6 @@
     <!-- Ambient Display -->
     <string name="ambient_display_xiaomi">Дрімати Xiaomi</string>
     <string name="advanced_doze_summary">Oточуючий дисплей</string>
-
-    <!-- KCAL -->
-    <string name="device_kcal_title">Калібровка кольорів екрану</string>
-    <string name="advanced_settings_kcal">Налаштуйте відображення кольорів на ваш смак</string>
-    <string name="cat_colormanagement">Налаштування кольору</string>
-    <string name="cat_calibration">Калибровка экрану</string>
-
-    <string name="kcal_enabled">Вкл</string>
-    <string name="kcal_disabled">Викл</string>
-    <string name="kcal_footer">Спробуйте увімкнути та вимкнути Нічне світло, щоб побачити ефекти</string>
-    <string name="set_on_boot">Вкл при завантаженні</string>
-    <string name="color_red">Червоний</string>
-    <string name="color_green">Зелений</string>
-    <string name="color_blue">Синій</string>
-    <string name="color_minimum">Мінімум</string>
-    <string name="saturation">Насиченість</string>
-    <string name="value">Значення</string>
-    <string name="contrast">Контраст</string>
-    <string name="hue">Відтінок</string>
-    <string name="grayscale">Показати в чорно-білому</string>
-
-    <!-- Presets For KCAL -->
-    <string name="presets_dialog_title">Вибрати шаблон</string>
-    <string name="preset_default">За замовчуванням</string>
-    <string name="preset_version_1">1 варіант</string>
-    <string name="preset_version_2">2 варіант</string>
-    <string name="preset_version_3">3 варіант</string>
-    <string name="preset_triluminous">Трилумінозний</string>
-    <string name="preset_deep_black_white">Глибокий чорний і білий колір</string>
-    <string name="preset_deep_natural">Надзвичайно натуральні кольори</string>
-    <string name="preset_cool_amoled">Хороший Amoled</string>
-    <string name="preset_extreme_amoled">Екстрім-Amoled</string>
-    <string name="preset_warm_amoled">Теплий Amoled</string>
-    <string name="preset_hybrid_mamba">Гібридна мамба</string>
-
-    <string name="kcal_presets">@string/presets_dialog_title</string>
-    <string name="kcal_reset">Скинути</string>
 
     <!-- Speaker -->
     <string name="speaker_category">Динамік</string>

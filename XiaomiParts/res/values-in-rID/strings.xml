@@ -22,16 +22,6 @@
     <string name="switch_bar_off">Nonaktif</string>
     <string name="device_settings_app_name">Setelan lanjutan</string>
     <string name="ambient_display_title">Tampilan sekitar</string>
-    <string name="pickup_sensor_title">Sensor pengambilan</string>
-    <string name="proximity_sensor_title">Sensor jarak</string>
-    <string name="hand_wave_gesture_title">Gelombang tangan</string>
-    <string name="hand_wave_gesture_summary">Pemberitahuan pulsa pada gelombang tangan</string>
-    <string name="pick_up_gesture_title">Pengambilan</string>
-    <string name="pick_up_gesture_summary">Notifikasi pulsa saat pengambilan</string>
-    <string name="pocket_gesture_title">Saku</string>
-    <string name="pocket_gesture_summary">Notifikasi pulsa saat dikeluarkan dari saku</string>
-    <string name="proximity_wake_title">Kedekatan bangun</string>
-    <string name="proximity_wake_enable_summary">Bangunkan perangkat dengan lambaian tangan</string>
     <string name="wake_on_gesture_title">Bangun dengan gerakan</string>
     <string name="wake_on_gesture_summary">Bangunkan perangkat alih-alih menampilkan notifikasi pada peristiwa gerakan</string>
     <string name="dialog_ok">Oke</string>
@@ -47,43 +37,6 @@
     <!-- Ambient Display -->
     <string name="ambient_display_xiaomi">Xiaomi Doze</string>
     <string name="advanced_doze_summary">Tampilan Ambien</string>
-
-    <!-- KCAL -->
-    <string name="device_kcal_title">Kalibrasi Warna Layar</string>
-    <string name="advanced_settings_kcal">Kalibrasi Warna Layar</string>
-    <string name="cat_colormanagement">Pengaturan Warna</string>
-    <string name="cat_calibration">Kalibrasi Layar</string>
-
-    <string name="kcal_enabled">Nyala</string>
-    <string name="kcal_disabled">Mati</string>
-    <string name="kcal_footer">Coba ON dan OFF Lampu Malam untuk melihat efeknya</string>
-    <string name="set_on_boot">Setel Saat Boot</string>
-    <string name="color_red">Merah</string>
-    <string name="color_green">Hijau</string>
-    <string name="color_blue">Biru</string>
-    <string name="color_minimum">Minimum</string>
-    <string name="saturation">Saturasi</string>
-    <string name="value">Nilai</string>
-    <string name="contrast">Kontras</string>
-    <string name="hue">Warna</string>
-    <string name="grayscale">Tampilan Grayscale</string>
-
-    <!-- Presets For KCAL -->
-    <string name="presets_dialog_title">Pilih Preset</string>
-    <string name="preset_default">Bawaan</string>
-    <string name="preset_version_1">Versi 1</string>
-    <string name="preset_version_2">Versi 2</string>
-    <string name="preset_version_3">Versi 3</string>
-    <string name="preset_triluminous">Triluminous</string>
-    <string name="preset_deep_black_white">Hitam Pekat dan Putih</string>
-    <string name="preset_deep_natural">Sangat Alami</string>
-    <string name="preset_cool_amoled">Amoled Dingin</string>
-    <string name="preset_extreme_amoled">Amoled Ekstrim</string>
-    <string name="preset_warm_amoled">Amoled Hangat</string>
-    <string name="preset_hybrid_mamba">Hybrid Mamba</string>
-
-    <string name="kcal_presets">@string/presets_dialog_title</string>
-    <string name="kcal_reset">Setel Ulang</string>
 
     <!-- Speaker -->
     <string name="speaker_category">Speaker</string>
